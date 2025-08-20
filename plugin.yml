@@ -1,0 +1,27 @@
+name: Animation
+main: br.trcraft.animation.Main
+version: 1.0
+author: TrDSTYLEE
+api-version: 1.21
+
+# =====================================
+# Comandos do plugin
+# =====================================
+commands:
+  particula:
+    description: Abre o menu de particulas
+    usage: /particula
+    permission: particulas.usar
+    aliases: [animation]
+
+# =====================================
+# Permissoes
+# =====================================
+permissions:
+  particulas.usar:
+    description: Permite usar o comando /particula e abrir o menu de particulas
+    default: true
+
+  particulas.reload:
+    description: Permite recarregar a configuracao do plugin com /particula reload
+    default: op

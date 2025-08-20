@@ -1,0 +1,41 @@
+
+################################################################################################
+#                                                                                              #
+#      █████╗ ███╗   ██╗██╗███╗   ███╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗                  #
+#     ██╔══██╗████╗  ██║██║████╗ ████║██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║                  #
+#     ███████║██╔██╗ ██║██║██╔████╔██║███████║   ██║   ██║██║   ██║██╔██╗ ██║                  #
+#     ██╔══██║██║╚██╗██║██║██║╚██╔╝██║██╔══██║   ██║   ██║██║   ██║██║╚██╗██║                  #
+#     ██║  ██║██║ ╚████║██║██║ ╚═╝ ██║██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║                  #
+#     ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═╝  ╚═══╝                    #
+#                                                                                              #
+#                        ANIMATION PARTICLE SYSTEM PLUGIN                                      #
+################################################################################################
+
+# ====================================================
+# Permissões principais (exemplo)
+# ====================================================
+# particulas.usar -> Permite usar o comando /particula e abrir o menu de partículas
+# particulas.reload -> Permite recarregar a configuração do plugin com /particula reload
+
+# Configuração do plugin
+give-particle-item-on-join: true   # Define se o jogador recebe o item ao entrar
+particle-item-slot: 1              # Slot do inventário onde o item de partículas será colocado (0 a 35)
+
+# Mensagens do plugin
+messages:
+  # JoinListener
+  welcome: "§6§l✨ Bem-vindo(a) ao servidor, §e{player}§6! ✨"
+  join-instructions: "§7Clique no item especial que você recebeu para escolher suas partículas!"
+  use-command-msg: "§7Use §e/particula§7 para receber o item de partículas."
+  received-item: "§a✨ Você recebeu o item de partículas! ✨"
+  menu-opened: "§a✨ Menu de partículas aberto! Escolha com estilo! ✨"
+
+  # Comando /particula
+  only-players: "§c⚠ Este comando só pode ser usado por jogadores!"
+  no-permission: "§c❌ Você não tem permissão para usar este comando!"
+  menu-not-loaded: "§c❌ O menu de partículas ainda não foi carregado. Tente novamente mais tarde!"
+  no-reload-permission: "§c❌ Você não tem permissão para recarregar o plugin!"
+  config-reloaded: "§a✅ Configuração recarregada com sucesso!"
+
+  # Eventos e alertas adicionais
+  item-already-has: "§eVocê já possui o item de partículas!"
