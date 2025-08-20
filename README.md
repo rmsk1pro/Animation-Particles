@@ -76,4 +76,3 @@ Supports particle trails, VIP access, and custom icons
 
 
 
-![Uploading particulas.png…]()
